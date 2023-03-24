@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gondoltam egy számot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+        <h1>Gondoltam egy számot</h1>
+        <h2>Tölád ki</h2>
+        <div class="getNev">
+            Hogy hívnak? <input id="nev" type="text"><button onclick="nevBevitel()">Játék</button>
+        </div>
+        <div class="game">
+            <h3 id="reply">
+                </h1>
+                Tipp: <input id="tipp" type="text"> <br>
+                <button onclick="tippElek()" id="gumb">Beküld</button>
+                <p id="tippValasz">Adj meg egy számot</p>
+                <p id="probaSzam">Próbálkozások: 0</p>
+                <button id="ujra" onclick="reset()">Reset</button>
+        </div>
+        <script src="script.js"></script>
+</body>
+
+</html>
