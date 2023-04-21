@@ -1,0 +1,40 @@
+body {
+    background-color: #999999;
+    color: black;
+}
+
+a {
+    color: white;
+}
+
+.tableOuter {
+    width: 670px;
+    background-color: white;
+    padding: 2pt;
+    border-spacing: 2pt;
+}
+
+.zenter {
+    position: relative;
+    left: 50%;
+    translate: -50%;
+}
+
+.tableInner {
+    width: 650px;
+    background-color: #485808;
+    padding: 2pt;
+    border-spacing: 2pt;
+}
+
+.tableInner td {
+    height: 60pt;
+    text-align: center;
+}
+
+.tableInner h1 {
+    color: white;
+}
+.tableInner #2nd td {
+    
+}
